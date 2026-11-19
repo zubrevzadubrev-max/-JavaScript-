@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JS Студия — тренажёр JavaScript</title><link rel="stylesheet" href="style.css">
+<header><a class="brand" href="#home"><b>JS</b> Студия</a><nav aria-label="Разделы"><a href="#lessons">Уроки</a><a href="#tests">Тесты</a><a href="#practice">Практика</a><a href="#video">Видео</a></nav></header>
+<main><section class="hero" id="home"><div><small>ИНТЕРАКТИВНЫЙ КУРС</small><h1>Изучай<br><em>JavaScript.</em></h1><p>Разбирай примеры, проверяй себя и пиши код прямо в браузере.</p><a class="cta" href="#lessons">К урокам ↓</a></div><div class="poster" aria-hidden="true"><span>{</span><strong>JS</strong><span>}</span></div></section>
+<section id="lessons"><small>ТЕОРИЯ</small><h2>Маршрут обучения</h2><p id="progress"></p><progress id="bar" max="6" value="0"></progress><div id="topics" class="grid"></div></section>
+<section id="tests"><small>САМОПРОВЕРКА</small><h2>Проверь себя</h2><p>Выбери ответ в каждой карточке и посмотри объяснение.</p><div id="quiz" class="grid"></div><p id="score" aria-live="polite"></p><button id="retry">Пройти заново</button></section>
+<section id="practice"><small>РЕДАКТОР КОДА</small><h2>Практическая лаборатория</h2><label for="task">Задание</label> <select id="task"></select><p id="prompt"></p><label for="code">Твоё решение</label><textarea id="code" spellcheck="false"></textarea><button id="run">▷ Проверить код</button><pre id="out" aria-live="polite">Здесь появится результат проверки.</pre></section>
+<section id="video"><small>ВИДЕОТЕКА</small><h2>Смотри на русском</h2><div id="films" class="grid"></div></section></main><footer>JS Студия · Тренажёр JavaScript</footer><script src="app.js"></script></html>
